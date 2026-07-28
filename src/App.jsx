@@ -282,14 +282,6 @@ function App() {
 
     <div className="contact-container">
 
-        <div className="contact-left">
-            <img
-  src={`${import.meta.env.BASE_URL}images/shield.png`}
-  alt="Cyber Shield"
-  className="shield-img"
-/>
-        </div>
-
         <div className="contact-right">
 
             <div className="contact-item">
@@ -324,7 +316,7 @@ function App() {
             <div className="contact-item">
                 <h3>📄 Resume</h3>
                 <a
-  href="/resume/Sanjana_SR_Resume.pdf"
+  href={`${import.meta.env.BASE_URL}resume/Sanjana_SR_Resume.pdf`}
   download
   className="contact-btn"
 >

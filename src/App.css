@@ -667,18 +667,13 @@ color:#00b7ff;
 
 .contact-container{
     display:flex;
+    justify-content:center;
     align-items:center;
-    justify-content:space-between;
-    gap:70px;
 
     background:#2a2a2a;
-
     border:1px solid #3f3f3f;
-
     border-radius:25px;
-
     padding:60px;
-
     box-shadow:0 15px 40px rgba(0,0,0,.35);
 }
 
@@ -703,7 +698,8 @@ color:#00b7ff;
 /* RIGHT */
 
 .contact-right{
-    flex:2;
+    width:100%;
+    max-width:500px;
 }
 
 .contact-item{
