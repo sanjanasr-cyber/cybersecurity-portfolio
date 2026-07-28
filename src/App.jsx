@@ -284,7 +284,7 @@ function App() {
 
         <div className="contact-left">
             <img
-  src="/images/shield.png"
+  src={`${import.meta.env.BASE_URL}images/shield.png`}
   alt="Cyber Shield"
   className="shield-img"
 />
