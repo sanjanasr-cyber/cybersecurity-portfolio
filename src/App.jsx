@@ -283,7 +283,11 @@ function App() {
     <div className="contact-container">
 
         <div className="contact-left">
-            <img src="/images/shield.png" alt="Cyber Shield" className="shield-img" />
+            <img
+  src="/images/shield.png"
+  alt="Cyber Shield"
+  className="shield-img"
+/>
         </div>
 
         <div className="contact-right">
